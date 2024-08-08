@@ -14,6 +14,8 @@ function ContentItem({ children }: { children: React.ReactNode }) {
 }
 
 export default function Faq() {
+  return null;
+
   const t = useTranslations('Faq');
   return (
     <div className='mx-auto max-w-pc space-y-8 pb-5'>
