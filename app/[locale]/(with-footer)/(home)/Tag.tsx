@@ -18,7 +18,7 @@ export function TagLink({ name, href }: { name: string; href: string }) {
 
 export function TagList({ data }: { data: { name: string; href: string; id: string }[] }) {
   return (
-    <ul className='no-scrollbar flex max-w-full flex-1 items-center gap-3 overflow-auto'>
+    <ul className='no-scrollbar flex max-w-full flex-1 flex-wrap items-center gap-3 overflow-auto'>
       {data.map((item) => (
         <li key={item.href}>
           <TagLink name={item.name} href={item.href} />
