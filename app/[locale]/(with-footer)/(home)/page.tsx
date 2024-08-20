@@ -56,7 +56,7 @@ export default async function Page() {
             data={categoryList!.map((item) => ({
               id: String(item.id),
               name: item.name,
-              href: `/category/${item.name}`,
+              href: `/s/${item.name}`,
             }))}
           />
         </div>

@@ -35,7 +35,7 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
           data={categoryList!.map((item) => ({
             id: String(item.id),
             name: item.name,
-            href: `/category/${item.name}`,
+            href: `/s/${item.name}`,
           }))}
         />
       </div>

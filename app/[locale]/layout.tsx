@@ -7,7 +7,6 @@ import './globals.css';
 
 import { Suspense } from 'react';
 
-import GoogleAdScript from '@/components/ad/GoogleAdScript';
 import SeoScript from '@/components/seo/SeoScript';
 
 import Loading from './loading';
@@ -40,7 +39,6 @@ export default function RootLayout({
           <Suspense fallback={<Loading />}>{children}</Suspense>
         </NextIntlClientProvider>
         <SeoScript />
-        <GoogleAdScript />
       </body>
     </html>
   );

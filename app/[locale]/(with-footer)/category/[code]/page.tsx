@@ -45,7 +45,7 @@ export default async function Page({ params }: { params: { code: string } }) {
       currentPage={1}
       total={count!}
       pageSize={InfoPageSize}
-      route={`/category/${params.code}`}
+      route={`/s/${params.code}`}
     />
   );
 }
