@@ -1,4 +1,4 @@
 Sitemap: https://www.thepornhub.ai/sitemap.xml
 
 User-agent: *
-Disallow: /
+Allow: /
